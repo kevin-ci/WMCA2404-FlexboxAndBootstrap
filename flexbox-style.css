@@ -1,0 +1,31 @@
+body {
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-item {
+    width: 33%;
+    height: 300px;
+}
+
+img {
+    max-width: 95%;
+    max-height: 95%;
+}
+
+@media only screen and (max-width: 850px) {
+    .grid-item {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .grid-item {
+        width: 100%;
+    }
+}
